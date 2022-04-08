@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
-using Terra;
+using Mirror;
 using UnityEngine;
 using UnityEngine.XR;
 

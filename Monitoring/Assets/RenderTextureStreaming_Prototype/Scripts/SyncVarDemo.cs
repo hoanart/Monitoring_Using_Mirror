@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Terra;
+using Mirror;
 using UnityEngine;
 
 public class SyncVarDemo : NetworkBehaviour {
