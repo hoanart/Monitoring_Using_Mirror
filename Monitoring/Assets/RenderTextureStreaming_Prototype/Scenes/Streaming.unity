@@ -451,7 +451,7 @@ MonoBehaviour:
   autoStartServerBuild: 1
   serverTickRate: 30
   offlineScene: 
-  onlineScene: Assets/RenderTextureStreaming_Prototype/Scenes/Streaming_XR.unity
+  onlineScene: Assets/RenderTextureStreaming_Prototype/Scenes/Streaming.unity
   transport: {fileID: 583206192}
   networkAddress: 192.168.0.174
   maxConnections: 100
