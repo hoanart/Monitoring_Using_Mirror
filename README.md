@@ -4,9 +4,9 @@
 Unity 2020.3.13f1\
 # 사용한 패키지
 - ParrelSync	멀티플레이 테스트를 위한 메인 프로젝트 복제를 제공\
-https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync\
+https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync
 - SharpZipLib	압축 관련 함수를 제공\
-com.unity.sharp-zip-lib\
+com.unity.sharp-zip-lib
 
 # 시작하는 법
 1.‘RenderTextureStreaming_Prototype/Scenes/Streaming’을 연다.\
