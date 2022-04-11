@@ -32,13 +32,13 @@ public class PlayerList : NetworkBehaviour
 
    private void Update()
    {
-      for (int i = 0; i < playersList.Count; i++)
-      {
-         if (playersList[i] == null)
-         {
-            playersList.Remove(playersList[i]);
-         }
-      }
+      // for (int i = 0; i < playersList.Count; i++)
+      // {
+      //    if (playersList[i] == null)
+      //    {
+      //       playersList.Remove(playersList[i]);
+      //    }
+      // }
    }
 
    /// <summary>
@@ -47,10 +47,17 @@ public class PlayerList : NetworkBehaviour
    /// <param name="idx"></param>
    void OnClickChangeRenderCamera(int idx)
    {
-      if (playersList[idx] != null&&isServer)
+      if (isServer)
       {
-         Debug.Log("playersList[idx].playerID : "+playersList[idx].playerID);
-         RpcActiveRenderCam(idx,playersList[idx].playerID);
+         try
+        {
+           RpcActiveRenderCam(idx,playersList[idx].playerID);
+        }
+        catch (Exception e)
+        {
+           Debug.Log("해당되는 클라이언트가 없습니다. ");
+        }
+        
       }
    }
 
