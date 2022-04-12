@@ -1,7 +1,8 @@
 # Monitoring_Using_Mirror
- 
+
+다른 플레이어들의 화면을 서버에서 모니터링 할 수 있습니다.
 # 개발 버전
-Unity 2020.3.13f1\
+Unity 2020.3.13f1
 # 사용한 패키지
 - ParrelSync	멀티플레이 테스트를 위한 메인 프로젝트 복제를 제공\
 https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync
