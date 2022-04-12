@@ -254,6 +254,10 @@ PrefabInstance:
       propertyPath: sceneId
       value: 3444708222
       objectReference: {fileID: 0}
+    - target: {fileID: 7340473840691098864, guid: 6833f4300b6ded343a047188f98147d0, type: 3}
+      propertyPath: serverOnly
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6833f4300b6ded343a047188f98147d0, type: 3}
 --- !u!224 &332949245 stripped
@@ -453,7 +457,7 @@ MonoBehaviour:
   offlineScene: 
   onlineScene: Assets/RenderTextureStreaming_Prototype/Scenes/Streaming.unity
   transport: {fileID: 583206192}
-  networkAddress: 192.168.0.174
+  networkAddress: Need_Your_Server_Network_Adress
   maxConnections: 100
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 6462612420875967252, guid: 3b4e7f4b380bebc41b2eaedaab69a1fb, type: 3}
@@ -793,6 +797,7 @@ GameObject:
   - component: {fileID: 1427979227}
   - component: {fileID: 1427979229}
   - component: {fileID: 1427979228}
+  - component: {fileID: 1427979230}
   m_Layer: 0
   m_Name: RawImage
   m_TagString: Untagged
@@ -854,6 +859,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427979226}
   m_CullTransparentMesh: 1
+--- !u!114 &1427979230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427979226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 1992612572
+  serverOnly: 1
+  visible: 0
+  m_AssetId: 
+  hasSpawned: 0
 --- !u!1 &1429238179
 GameObject:
   m_ObjectHideFlags: 0
