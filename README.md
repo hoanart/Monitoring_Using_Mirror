@@ -12,3 +12,8 @@ com.unity.sharp-zip-lib
 1.‘RenderTextureStreaming_Prototype/Scenes/Streaming’을 연다.\
 2.‘NetworkManager’ 오브젝트에 있는 ‘Network Manager’스크립트의 ‘Network Address’의 주소를 서버로 이용할 PC의 IP주소로 변경한다.\
 3.	‘Textures/Sender_RenderTexture’에서 렌더 텍스처의 크기(추천 크기는 480P)를 설정한다.  
+
+
+
+https://user-images.githubusercontent.com/56676158/162856281-255fda2c-afdf-4a69-953b-ef86f55317a3.mp4
+
